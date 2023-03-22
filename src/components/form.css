@@ -1,0 +1,83 @@
+.form{
+    /* border: 1px solid black; */
+    box-shadow:  .5px 1px 2px 2px #888888;
+    width: 30vw;
+    margin:auto;
+    width:26.75rem;
+    background-color: #FFFFFF;
+}
+
+.form__logo >img{
+    object-fit: contain;
+    width: 12.375rem;
+}
+
+.form__text > p {
+    font-family: "Roboto";
+    color: #1A1A1A;
+}
+
+.form__loginSignUpcontainer{
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+
+.form__loginSignUpcontainer > p{
+    color:#1D2226;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.active{
+    border-bottom: 3px solid #E70B89;
+    width:10rem;
+}
+
+.form__loginSignUpLogin{
+    padding:.3rem;
+}
+
+.form__input{
+    padding:.5rem;
+    width: 18.75rem;
+    border-radius: 999px;
+    margin:.2rem;
+}
+
+.form__button{
+    width:18.75rem;
+    padding:.5rem;
+    border:none;
+    border-radius: 999px;
+    background-color: #E70B89;
+    color:#FFFFFF;
+    margin-top:1rem;
+}
+
+.form__forgot{
+    color:#E70B89;
+   margin-left:10rem;
+}
+
+.form__loginWith{
+    color:#9D9D9D;
+    font: .75rem;
+}
+
+.form__loginWithImage{
+    width:2rem;
+    height: 1.375rem;  
+    background:transparent;
+    cursor: pointer; 
+    margin:.8rem;
+}
+
+span{
+    color:#E70B89
+}
+
+.span{
+    border-bottom:.1rem solid #E70B89;
+}
